@@ -5,7 +5,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const EXCUSE =
-  "Production broke because the database read my query and asked for hazard pay.";
+  "The merge conflict resolved itself by deleting the feature we were demoing.";
 
 const OUTPUT_PATH = "/output/entry.txt";
 

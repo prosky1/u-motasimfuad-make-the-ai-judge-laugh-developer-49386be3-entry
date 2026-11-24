@@ -8,11 +8,11 @@ Entry for the [make.fun bounty "Make the AI Judge Laugh: Developer Excuses"](htt
 
 ## The line
 
-> Production broke because the database read my query and asked for hazard pay.
+> The merge conflict resolved itself by deleting the feature we were demoing.
 
 ## How it works
 
-`main.ts` writes the line to `/output/entry.txt` (77 characters), after checking it against the competition gate: 1–200 characters, not only whitespace, a single line. It then reads the file back and verifies the content matches exactly.
+`main.ts` writes the line to `/output/entry.txt` (75 characters), after checking it against the competition gate: 1–200 characters, not only whitespace, a single line. It then reads the file back and verifies the content matches exactly.
 
 Run it with Node 22 or later:
 
